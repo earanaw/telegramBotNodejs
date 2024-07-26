@@ -11,6 +11,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "-": "^0.0.1",
+    "dotenv": "^16.4.5",
     "telegraf": "^4.16.3"
   }
 }

@@ -1,6 +1,8 @@
 import {Telegraf} from'telegraf';
+import dotenv from 'dotenv'
+dotenv.config()
 
-const bot = new Telegraf('5081397447:AAFIdvUzyXDNy-UA8zg3yMtBOVmVY_bvOsQ');
+const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start((ctx) => ctx.reply('Bienvenido!'));
 bot.help((ctx) => ctx.reply('Cómo puedo ayudarte amigo?'));
