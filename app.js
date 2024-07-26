@@ -1,6 +1,6 @@
 import {Telegraf} from'telegraf';
 
-const bot = new Telegraf('5081397447:AAFIdvUzyXDNy-UA8zg3yMtBOVmVY_bvOsQ');
+const bot = new Telegraf('TOKEN');
 
 bot.start((ctx) => ctx.reply('Bienvenido!'));
 bot.help((ctx) => ctx.reply('Cómo puedo ayudarte amigo?'));
